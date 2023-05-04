@@ -1,0 +1,13 @@
+/* CSS container of detail */
+.detail-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* CSS content of detail */
+.detail-content {
+  width: 60%;
+  padding-top: 20px;
+}

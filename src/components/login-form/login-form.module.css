@@ -1,0 +1,16 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.form input {
+  padding: 20px 10px;
+  background-color: #e8f0fe;
+  border: 1px solid gray;
+  outline-style: none;
+  border-radius: 2px;
+}
+.form label {
+  margin-top: 10px;
+  color: red;
+}

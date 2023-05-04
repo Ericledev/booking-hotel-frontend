@@ -1,0 +1,9 @@
+.list-li {
+  list-style-type: none;
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+.list-li a {
+  text-decoration: none;
+}

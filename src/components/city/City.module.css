@@ -1,0 +1,15 @@
+.city {
+  position: relative;
+}
+.city img {
+  border-radius: 10px;
+  width: 295px;
+  height: 210px;
+  /* height: auto; */
+}
+.city label {
+  position: absolute;
+  left: 10px;
+  bottom: 20px;
+  color: white;
+}

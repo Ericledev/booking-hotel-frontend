@@ -1,0 +1,31 @@
+/* CSS for container of navBar */
+.nav-container {
+  width: auto;
+  background-color: rgb(0 53 128);
+  padding: 5px 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* CSS for head of navBar */
+.nav-container .nav-head {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin-top: 10px;
+}
+.nav-container .booking-website {
+  cursor: pointer;
+}
+
+.nav-container .btns .register,
+.nav-container .btns .login {
+  color: rgb(0 53 128);
+  cursor: pointer;
+}
+.nav-container .btns .register {
+  margin-right: 10px;
+  margin-left: 10px;
+}

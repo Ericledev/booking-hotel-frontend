@@ -1,0 +1,46 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+th {
+  background-color: #17a1c0;
+  color: white;
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(221, 221, 221, 0.5);
+}
+
+tr:hover {
+  background-color: #d6eeee;
+}
+
+.status > .green {
+  background-color: pink;
+  border-radius: 5px;
+  padding: 2px 4px;
+  color: green;
+}
+.status > .purple {
+  background-color: rgba(128, 0, 128, 0.5);
+  border-radius: 5px;
+  padding: 2px 4px;
+  color: green;
+}
+.status > .pink {
+  background-color: rgba(0, 128, 0, 0.5);
+  border-radius: 5px;
+  padding: 2px 4px;
+  color: green;
+}

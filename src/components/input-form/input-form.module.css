@@ -1,0 +1,23 @@
+.form-control {
+  display: flex;
+  gap: 40px;
+}
+.form-control > .date-range h3 {
+  margin-bottom: 15px;
+}
+.form-input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.form-input label {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.form-input input {
+  padding: 10px 5px;
+  color: gray;
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid grey;
+}

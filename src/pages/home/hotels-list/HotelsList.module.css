@@ -1,0 +1,21 @@
+.title {
+  margin: 30px 0px 15px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.title h3 {
+  width: 60%;
+}
+
+.hotels-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  width: 60%;
+  gap: 14px;
+}

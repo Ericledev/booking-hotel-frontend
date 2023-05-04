@@ -1,0 +1,41 @@
+.search-container {
+  width: 60%;
+  border: 2px solid rgb(254 187 2);
+  display: flex;
+  gap: 30px;
+  background-color: white;
+  color: rgba(128, 128, 128, 45%);
+  position: absolute;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px 0px;
+  bottom: 0px;
+  transform: translateY(50%);
+  border-radius: 5px;
+  z-index: 10;
+}
+.date-range-container {
+  cursor: pointer;
+}
+.date-range {
+  position: absolute;
+  transform: translate(-3%, 55%);
+}
+.search-container i {
+  margin-right: 10px;
+}
+
+.search-container .visible {
+  display: none;
+}
+.selection {
+  color: grey;
+  border: none;
+  outline: none;
+}
+.searchInfo > input {
+  border: none;
+  outline: none;
+  color: grey;
+  width: 40px;
+}

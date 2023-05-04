@@ -1,0 +1,18 @@
+/* CSS container for footer */
+.footer-container {
+  width: auto;
+
+  padding: 30px 10px 100px 10px;
+  color: rgb(0 53 128);
+  display: flex;
+  justify-content: center;
+}
+/* CSS content for Footer */
+.footer-content {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-content ul {
+  padding-left: 0px;
+}

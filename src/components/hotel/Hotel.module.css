@@ -1,0 +1,28 @@
+.name img {
+  width: 295px;
+  height: 220px;
+}
+.name a {
+  font-weight: 800;
+  font-size: 12px;
+}
+.name h4 {
+  font-size: 12px;
+}
+
+.city {
+  color: rgb(128 128 128 / 50%);
+  margin: 10px 0;
+}
+.price {
+  margin-bottom: 10px;
+}
+
+.rate {
+  background: rgb(0 53 128);
+  color: white;
+  padding: 3px;
+}
+.type {
+  font-weight: 400;
+}

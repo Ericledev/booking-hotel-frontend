@@ -1,0 +1,60 @@
+.popup-container {
+  width: auto;
+  background-color: rgb(254 187 2);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.selection,
+.input-date,
+.options input {
+  padding: 5px;
+  border: none;
+  outline: none;
+  color: gray;
+}
+.lbl-dest {
+  margin: 15px 0 5px 0;
+}
+.lbl-date {
+  margin: 10px 0 5px 0;
+}
+.lbl-option {
+  margin-top: 10px;
+}
+
+.popup-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.options {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  gap: 10px;
+  padding: 10px;
+}
+.options label {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.options input {
+  width: 50px;
+}
+
+.popup-container .visible {
+  display: none;
+}
+
+.popup-container .date-range {
+  /* display: block; */
+}
+
+.date-range-container {
+  margin-right: 10px;
+}
+
+.input-date {
+  width: 100%;
+  cursor: pointer;
+}

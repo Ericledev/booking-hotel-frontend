@@ -1,0 +1,77 @@
+.hotel {
+  padding: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.5);
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.image {
+  padding-right: 25px;
+  display: flex;
+}
+.image img {
+  width: 100%;
+  min-width: 200px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.info h2 {
+  color: rgb(0 113 194);
+  font-weight: 800;
+}
+
+.info p {
+  margin-top: 15px;
+  font-size: 13px;
+}
+.distance {
+  font-weight: 600;
+}
+.free-airport-taxi span {
+  background-color: green;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+.free-cancel {
+  color: green;
+  font-weight: 800;
+}
+.free-cancel-2 {
+  color: green;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.mark {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.rate-text {
+  font-weight: 600;
+}
+.rate {
+  background-color: rgb(0 53 128);
+  padding: 5px;
+  color: white;
+}
+
+.info-price {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.info-price h6 {
+  margin: 10px 0px;
+  color: grey;
+}

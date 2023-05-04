@@ -1,0 +1,22 @@
+/* CSS container for Header */
+.header-container {
+  width: auto;
+  background-color: rgb(0 53 128);
+  padding: 0px 10px 100px 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: auto;
+}
+
+/* CSS content for Header */
+.header-content {
+  width: 60%;
+}
+.header-content h1 {
+  margin-bottom: 20px;
+}
+.header-content p {
+  margin-bottom: 20px;
+}

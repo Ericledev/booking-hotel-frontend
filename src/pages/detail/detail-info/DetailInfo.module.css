@@ -1,0 +1,53 @@
+/* ================  HEADER INFO ======================== */
+.info-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.info-left {
+  display: flex;
+  flex-direction: column;
+}
+.distance {
+  color: rgb(0 113 194);
+  margin: 10px 0px;
+}
+
+.price {
+  color: green;
+}
+
+/* ================  IMAGE INFO ======================== */
+.info-right {
+  padding-top: 10px;
+}
+
+.img-container {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+}
+
+.img {
+  width: 100%;
+}
+
+.img img {
+  width: 100%;
+}
+
+/* ================  FOOTER INFO ======================== */
+.infor-footer {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  column-gap: 10px;
+}
+.infor-footer-content p {
+  font-size: 12px;
+}
+
+.night-nine {
+  width: 100%;
+}

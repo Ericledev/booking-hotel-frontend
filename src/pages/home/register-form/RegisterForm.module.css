@@ -1,0 +1,33 @@
+/* CSS container for Register */
+.register-container {
+  width: 100%;
+  background-color: rgb(0 53 128);
+  color: white;
+  display: flex;
+  justify-content: center;
+  bottom: auto;
+  margin-top: 40px;
+}
+/* CSS content for Register */
+.register-content {
+  padding: 40px 0;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.register-content h2 {
+  margin-bottom: 20px;
+}
+.register-content p {
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.input-control input {
+  margin-right: 10px;
+  padding: 9px 10px;
+  border-radius: 5px;
+  width: 250px;
+  border: none;
+}

@@ -1,0 +1,25 @@
+.perfect {
+  background-color: rgb(235, 243, 255);
+  padding: 10px;
+}
+
+.perfect h3 {
+  font-size: 14px;
+  color: grey;
+  padding-bottom: 15px;
+}
+.perfect h2 {
+  padding-bottom: 15px;
+}
+.perfect span {
+  color: grey;
+}
+.perfect p {
+  font-size: 12px;
+}
+.night {
+  padding-bottom: 15px;
+}
+.night span {
+  font-weight: 800;
+}

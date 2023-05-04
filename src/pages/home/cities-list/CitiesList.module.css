@@ -1,0 +1,14 @@
+/* CSS container for cities */
+.cities-container {
+  margin-top: 50px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  padding: 0 10px;
+}
+/* CSS content for cities */
+.content {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
